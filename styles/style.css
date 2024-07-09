@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 *{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +14,7 @@ body{
 .banner-container{
     margin: 0 auto;
     margin-top: 30px;
-    width: 75%;
+    max-width: 80%;
     min-height:400px ;
     border: 1px solid red;
     /* background-image:linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../assets/Banner\ Image.png"); */
@@ -51,7 +52,190 @@ body{
 }
 .banner-contnet h1{
     font-size: 42px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 65px;
-    letter-spacing: 0%; 
+    letter-spacing: 4px; 
+}
+.second-section-container{
+    max-width: 40%;
+    max-height: 450px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+/* second section style starts */
+.section-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+}
+.second-section-container h1{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+   
+    line-height: 50px;
+}
+.second-section-container p{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 70px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.second-section-container h3{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.section-img-1{
+    max-width: 100%;
+    max-height: 300px;
+    /* border: 1px solid; */
+}
+.section-img-1 img{
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 20px;
+    border: 1px dashed;
+}
+.section-banner{
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 80%;
+    min-height:400px ;
+    border: 1px solid red;
+    background-image: url("../assets/Vectorrr.png");
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.section-banner-description{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    
+    width: 50%;
+
+}
+.section-banner-description h1{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 44px;
+    letter-spacing: 3px;
+    text-align: left;
+}
+.section-banner-description p{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 5px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.section-banner-description h4{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 10px;
+} 
+
+.section-banner-img img{
+    height: 100%;
+   width: 50%;
+   border: 1px dashed rgb(231, 213, 182);
+}
+.section-banner-2{
+    margin: 0 auto;
+    margin-top: 100px;
+    max-width: 80%;
+    min-height:400px ;
+    /* border: 1px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+.content-span{
+    color: rgb(255, 0, 0);
+}
+.sectiosn-banner-2-content {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 100px;
+}
+.sectiosn-banner-2-btn button{
+    border-radius: 8px;
+    padding: 8px 20px;
+    font-size: 16px;
+    border: none;
+    background-color:rgb(255, 0, 0) ;
+    color: white;
+    margin-top: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 500px;
 }
